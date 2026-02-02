@@ -86,6 +86,13 @@ object-position: center;
 display: block;
 }
 
+.mail img{
+display: block;
+max-width: 520px;
+width: 100%;
+margin: 0 auto 18px; /* centered, with breathing room */
+}
+
 /* body content */
 .wrap{
 max-width: var(--max);
