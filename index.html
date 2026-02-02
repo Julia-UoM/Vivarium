@@ -4,36 +4,41 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Vivarium</title>
-<meta name="description" content="Vivarium — photography and printed matter." />
+<meta name="description" content="Vivarium — photographs and printed matter." />
 <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-<!-- HERO -->
-<header class="hero" style="--hero-url: url('images/window-clouds.jpg');">
-<div class="hero__overlay"></div>
-
-<div class="hero__card">
-<h1>Vivarium</h1>
-<p>photographs, observation, printed matter</p>
+<header class="site-header">
+<div class="top">
+<div class="top__inner">
+<div class="brand">vivarium</div>
+<nav class="nav">
+<a href="#mail">mail club</a>
+<a href="#about">about</a>
+<a href="#contact">contact</a>
+</nav>
+</div>
 </div>
 
-<nav class="hero__nav">
-<a class="pill" href="#mail">mail club</a>
-<a class="pill" href="#about">about</a>
-<a class="pill" href="#contact">contact</a>
-</nav>
+<!-- scrolling header image (full width, vertical crop) -->
+<div class="header-strip">
+<img src="images/window-clouds.jpg" alt="" />
+</div>
 </header>
 
-<!-- BODY -->
-<main class="wrap">
-<section class="figure">
+<main>
+<!-- full-width clouds image (scales to width, vertical crop) -->
+<section class="full-bleed">
 <img src="images/clouds.jpg" alt="Clouds" />
 </section>
 
+<section class="wrap">
 <section id="mail" class="text">
 <p>A small mail club of printed photographs is available.</p>
-<a class="cta" href="https://ko-fi.com/YOURKOFI" target="_blank" rel="noreferrer">join the mail club</a>
+<a class="link" href="https://ko-fi.com/YOURKOFI" target="_blank" rel="noreferrer">
+join the mail club
+</a>
 </section>
 
 <section id="about" class="text">
@@ -48,8 +53,9 @@ through small, informal releases.
 </section>
 
 <footer id="contact" class="footer">
-<a href="mailto:hello@vivarium.photo">hello@vivarium.photo</a>
+<a class="link" href="mailto:hello@vivarium.photo">hello@vivarium.photo</a>
 </footer>
+</section>
 </main>
 </body>
 </html>
