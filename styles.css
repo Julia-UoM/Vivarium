@@ -139,3 +139,46 @@ color: var(--muted);
 .header-strip img{ height: 96px; }
 .full-bleed img{ height: 360px; }
 }
+
+.mail{
+max-width: var(--max);
+margin: 0 auto;
+padding: 44px var(--pad) 0;
+}
+
+.mail-row{
+display: grid;
+grid-template-columns: 360px 1fr;
+gap: 26px;
+align-items: center;
+max-width: 760px;
+}
+
+.mail-img{
+width: 100%;
+height: auto;
+display: block;
+}
+
+.mail-copy{
+max-width: 42ch;
+}
+
+.mail-copy p{
+margin: 0 0 10px;
+}
+
+/* Mobile: stack */
+@media (max-width: 700px){
+.mail{
+padding-top: 28px;
+}
+.mail-row{
+grid-template-columns: 1fr;
+gap: 18px;
+}
+.mail-img{
+max-width: 360px;
+margin: 0 auto;
+}
+}
