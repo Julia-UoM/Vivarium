@@ -3,48 +3,53 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>vivarium</title>
+<title>Vivarium</title>
 <meta name="description" content="Vivarium — photography and printed matter." />
 <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-<header class="top">
-<div class="top__inner">
-<div class="brand">vivarium</div>
-<nav class="nav">
-<a href="#mail">mail club</a>
-<a href="#contact">contact</a>
-</nav>
+<!-- HERO -->
+<header class="hero" style="--hero-url: url('images/window-clouds.jpg');">
+<div class="hero__overlay"></div>
+
+<div class="hero__card">
+<h1>Vivarium</h1>
+<p>photographs, observation, printed matter</p>
 </div>
 
-<div class="header-image">
-<img src="images/window-clouds.jpg" alt="" />
-</div>
+<nav class="hero__nav">
+<a class="pill" href="#mail">mail club</a>
+<a class="pill" href="#about">about</a>
+<a class="pill" href="#contact">contact</a>
+</nav>
 </header>
 
+<!-- BODY -->
 <main class="wrap">
-<section class="hero">
+<section class="figure">
 <img src="images/clouds.jpg" alt="Clouds" />
 </section>
 
-<section class="text">
+<section id="mail" class="text">
+<p>A small mail club of printed photographs is available.</p>
+<a class="cta" href="https://ko-fi.com/YOURKOFI" target="_blank" rel="noreferrer">join the mail club</a>
+</section>
+
+<section id="about" class="text">
 <p>
-vivarium is a photographic practice concerned with interior spaces,
-observation, and quiet accumulation.
+Vivarium is an ongoing photographic practice focused on interior spaces,
+observation, and accumulation over time.
 </p>
-<p id="mail">
-A small monthly mail club of printed work is available.
+<p>
+The work moves between still images and printed matter, often circulated
+through small, informal releases.
 </p>
-
-<a class="cta" href="https://ko-fi.com/vivariummailclub" target="_blank" rel="noreferrer">
-join the mail club
-</a>
 </section>
 
-<section id="contact" class="text footer">
+<footer id="contact" class="footer">
 <a href="mailto:hello@vivarium.photo">hello@vivarium.photo</a>
-</section>
+</footer>
 </main>
 </body>
 </html>
