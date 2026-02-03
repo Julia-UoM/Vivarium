@@ -192,17 +192,3 @@ max-width: 42ch;
 margin: 0 0 10px;
 }
 
-/* Mobile: stack */
-@media (max-width: 700px){
-.mail{
-padding-top: 28px;
-}
-.mail-row{
-grid-template-columns: 1fr;
-gap: 18px;
-}
-.mail-img{
-max-width: 360px;
-margin: 0 auto;
-}
-}
