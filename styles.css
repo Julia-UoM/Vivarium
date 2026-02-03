@@ -119,7 +119,7 @@ margin: 0 0 14px;
 
 .about-grid {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 360px 1fr;
   gap: 40px;
   align-items: start;
 }
