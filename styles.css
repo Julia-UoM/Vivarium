@@ -171,3 +171,24 @@ a:hover{ opacity: .85; }
     margin: 0 auto;
   }
 }
+
+.page{ padding-top: 44px; }
+
+h1{
+  font-size: 14px;
+  letter-spacing: .08em;
+  text-transform: lowercase;
+  margin: 0 0 22px;
+}
+
+.card{
+  border-top: 1px solid var(--line);
+  padding-top: 44px;
+}
+
+.nav a.active{
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
