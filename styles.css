@@ -142,9 +142,11 @@ a:hover{ opacity: .85; }
 }
 
 .about-image{
+  display: block;
   width: 100%;
   max-width: 360px;
-  height: 420px;
+  min-height: 420px;
+  height: auto;
   object-fit: cover;
   object-position: center;
 }
