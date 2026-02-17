@@ -8,6 +8,10 @@
   --pad: 22px;
 }
 
+img{
+  display:block;
+}
+
 /* reset */
 *{ box-sizing: border-box; }
 html,body{ height: 100%; }
