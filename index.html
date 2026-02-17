@@ -7,37 +7,84 @@
   <meta name="description" content="Vivarium — photographs and print" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
 
 <header class="site-header">
+
   <div class="top">
     <div class="top__inner">
-      <a class="brand" href="index.html">vivarium</a>
+      <div class="brand">vivarium</div>
+
       <nav class="nav">
-        <a href="mail.html">mail club</a>
-        <a href="about.html">info</a>
-        <a href="contact.html">contact</a>
+        <a href="#mail">mail club</a>
+        <a href="#about">info</a>
+        <a href="#contact">contact</a>
       </nav>
     </div>
   </div>
 
+  <!-- HEADER IMAGE: bordered sky -->
   <div class="header-strip">
-    <img src="images/window-clouds.jpg" alt="" />
+    <img src="images/window-clouds.jpg" alt="Sky photograph" />
   </div>
+
 </header>
 
 <main>
+
+  <!-- HERO IMAGE: love hotel -->
   <section class="full-bleed">
-    <img src="images/clouds.jpg" alt="Clouds" />
+    <img src="images/love-hotel.jpg" alt="Love hotel interior photograph" />
   </section>
+
   <div class="wrap">
-    <section class="card">
-      <p>
-        <a class="link" href="mail.html">join the mail club</a>
-      </p>
+
+    <!-- MAIL CLUB -->
+    <section id="mail" class="mail">
+      <div class="mail-row">
+        <img class="mail-img" src="images/mail-club.png" alt="Vivarium mail club preview" />
+
+        <div class="mail-copy">
+          <p>A small monthly mail club of printed work is available.</p>
+
+          <a class="link" href="https://ko-fi.com/YOURKOFI" target="_blank" rel="noreferrer">
+            join the mail club
+          </a>
+        </div>
+      </div>
     </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+      <div class="about-grid">
+        <img class="about-image" src="images/about-polaroid.png" alt="Polaroid self portrait" />
+
+        <div class="text">
+          <p>
+            vivarium is an ongoing photographic practice focused on interior spaces,
+            observation, and accumulation over time.
+          </p>
+
+          <p>
+            The work moves between still images and prints accompanied by personal
+            text, circulated through small informal releases and a monthly mail club.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="footer">
+      <a class="link" href="mailto:hello@vivarium.photo">hello@vivarium.photo</a>
+    </footer>
+
   </div>
+
 </main>
+
+</body>
+</html>
 
 </body>
 </html>
